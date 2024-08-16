@@ -1,9 +1,8 @@
 import React from 'react'
-import '../App.css';
+import '../../App.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
-class HeaderLogo extends React.Component {
-  render(){
+const HeaderLogo = () => {
     return (
         <div>
             <div className="header__web__logo">
@@ -18,6 +17,5 @@ class HeaderLogo extends React.Component {
         </div>
     );
   }
-}
 
 export default HeaderLogo;

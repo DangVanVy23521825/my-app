@@ -1,10 +1,10 @@
 import React from 'react'
 import './App.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import Header from './components/Header.js';
+import Header from './components/Header/Header.js';
+import Footer from './components/Footer/Footer.js';
 
-class App extends React.Component {
-  render(){
+const App = () => {
     return (
       <div className="App">
         <Header />
@@ -259,182 +259,9 @@ class App extends React.Component {
             </div>
         </div>
 
-        <footer className="footer">
-            <div className="grid footer-content">
-                <div className="grid__row">
-                    <div className="footer__column">
-                        <h3 className="footer-heading">CHĂM SÓC KHÁCH HÀNG</h3>
-                        <ul className="footer-list">
-                            <li className="footer-item">
-                                <a href="https://www.youtube.com/" className="footer-link">Trung Tâm Trợ Giúp</a>
-                            </li>
-                            <li className="footer-item">
-                                <a href="https://www.youtube.com/" className="footer-link">Shopee Blog</a>
-                            </li>
-                            <li className="footer-item">
-                                <a href="https://www.youtube.com/" className="footer-link">Shopee Mall</a>
-                            </li>
-                            <li className="footer-item">
-                                <a href="https://www.youtube.com/" className="footer-link">Hướng Dẫn Mua Hàng</a>
-                            </li>
-                            <li className="footer-item">
-                                <a href="https://www.youtube.com/" className="footer-link">Hướng Dẫn Bán Hàng</a>
-                            </li>
-                            <li className="footer-item">
-                                <a href="https://www.youtube.com/" className="footer-link">Thanh Toán</a>
-                            </li>
-                            <li className="footer-item">
-                                <a href="https://www.youtube.com/" className="footer-link">Shopee Xu</a>
-                            </li>
-                            <li className="footer-item">
-                                <a href="https://www.youtube.com/" className="footer-link">Vận Chuyển</a>
-                            </li>
-                            <li className="footer-item">
-                                <a href="https://www.youtube.com/" className="footer-link">Trả Tiền & Hoàn Tiền</a>
-                            </li>
-                            <li className="footer-item">
-                                <a href="https://www.youtube.com/" className="footer-link">Chăm Sóc Khách Hàng</a>
-                            </li>
-                            <li className="footer-item">
-                                <a href="https://www.youtube.com/" className="footer-link">Chính Sách Bảo Hành</a>
-                            </li> 
-                        </ul>
-                    </div>
-                    <div className="footer__column">
-                        <h3 className="footer-heading">VỀ SHOPEE</h3>
-                        <ul className="footer-list">
-                            <li className="footer-item">
-                                <a href="https://www.youtube.com/" className="footer-link">Giới Thiệu Về Shopee Việt Nam</a>
-                            </li>
-                            <li className="footer-item">
-                                <a href="https://www.youtube.com/" className="footer-link">Tuyển Dụng</a>
-                            </li>
-                            <li className="footer-item">
-                                <a href="https://www.youtube.com/" className="footer-link">Điều Khoản Shopee</a>
-                            </li>
-                            <li className="footer-item">
-                                <a href="https://www.youtube.com/" className="footer-link">Chính Sách Bảo Mật</a>
-                            </li>
-                            <li className="footer-item">
-                                <a href="https://www.youtube.com/" className="footer-link">Chính Hãng</a>
-                            </li>
-                            <li className="footer-item">
-                                <a href="https://www.youtube.com/" className="footer-link">Kênh Người Bán</a>
-                            </li>
-                            <li className="footer-item">
-                                <a href="https://www.youtube.com/" className="footer-link">Flash sales</a>
-                            </li>
-                            <li className="footer-item">
-                                <a href="https://www.youtube.com/" className="footer-link">Chương Trình Tiếp Thị Liên Kết Shopee</a>
-                            </li>
-                            <li className="footer-item">
-                                <a href="https://www.youtube.com/" className="footer-link">Liên Hệ Với Truyển Thông</a>
-                            </li> 
-                        </ul>
-                    </div>
-                    <div className="footer__column">
-                        <h3 className="footer-heading">THANH TOÁN</h3>
-                        <div className="footer-payment">
-                            <a href="https://www.youtube.com/" className="footer-payment-link">
-                                <img src="images/visa.png" alt="visa" className="footer-payment-image"/>
-                            </a>
-                            <a href="https://www.youtube.com/" className="footer-payment-link">
-                                <img src="images/twodots.png" alt="twodots" className="footer-payment-image"/>
-                            </a>
-                            <a href="https://www.youtube.com/" className="footer-payment-link">
-                                <img src="images/jcb.png" alt="jcb" className="footer-payment-image"/>
-                            </a>
-                            <a href="https://www.youtube.com/" className="footer-payment-link">
-                                <img src="images/american-express.png" alt="American-express" className="footer-payment-image"/>
-                            </a>
-                            <a href="https://www.youtube.com/" className="footer-payment-link">
-                                <img src="images/spay.png" alt="SPay" className="footer-payment-image"/>
-                            </a>
-                        </div>
-                        <h3 className="footer-heading">ĐƠN VỊ VẬN CHUYỂN</h3>
-                        <div className="footer-shipping">
-                            <a href="https://www.youtube.com/" className="footer-shipping-link">
-                                <img src="images/spx.png" alt="SPX" className="footer-shipping-image"/>
-                            </a>
-                            <a href="https://www.youtube.com/" className="footer-shipping-link">
-                                <img src="images/viettelpost.png" alt="Viettel" className="footer-shipping-image"/>
-                            </a>
-                            <a href="https://www.youtube.com/" className="footer-shipping-link">
-                                <img src="images/grab.png" alt="Grab" className="footer-shipping-image"/>
-                            </a>
-                            <a href="https://www.youtube.com/" className="footer-shipping-link">
-                                <img src="images/be.png" alt="Be" className="footer-shipping-image"/>
-                            </a>
-                            <a href="https://www.youtube.com/" className="footer-shipping-link">
-                                <img src="images/ninjavan.png" alt="Ninjavan" className="footer-shipping-image"/>
-                            </a>
-                        </div> 
-                    </div>
-                    <div className="footer__column">
-                        <h3 className="footer-heading">THEO DÕI CHÚNG TÔI TRÊN</h3>
-                        <ul className="footer-list">
-                            <li className="footer-item">
-                                <a href="https://www.youtube.com/" className="footer-link">
-                                    <i className="footer-item-icon fa-brands fa-facebook"></i>
-                                    Facebook
-                                </a>
-                            </li>
-                            <li className="footer-item">
-                                <a href="https://www.youtube.com/" className="footer-link">
-                                    <i className="footer-item-icon fa-brands fa-instagram"></i>
-                                    Instagram
-                                </a>
-                            </li>
-                            <li className="footer-item">
-                                <a href="https://www.youtube.com/" className="footer-link">
-                                    <i className="footer-item-icon fa-brands fa-linkedin"></i>
-                                    Linkedin
-                                </a>
-                            </li> 
-                        </ul>
-                    </div>
-                    <div className="footer__column">
-                        <h3 className="footer-heading">TẢI ỨNG DỤNG SHOPEE NGAY THÔI</h3>
-                        <div className="footer-download">
-                            <img src="images/qr_code.png" alt="download-qrcode" className="footer-qrcode"/>
-                            <div className="footer-download-apps">
-                                <a href="https://www.youtube.com/" className="footer-download-apps-link">
-                                    <img src="images/appstore.png" alt="App store" className="footer-download-apps-image"/>
-                                </a>
-                                <a href="https://www.youtube.com/" className="footer-download-apps-link">
-                                    <img src="images/ggplay.png" alt="Google play" className="footer-download-apps-image"/>
-                                </a>
-                                <a href="https://www.youtube.com/" className="footer-download-apps-link">
-                                    <img src="images/appgallery.png" alt="App gallery" className="footer-download-apps-image" />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="footer__information">
-                    <div className="footer__web--infor">© 2024 Shopee. Tất cả các quyền được bảo lưu.</div>
-                    <div className="footer__web--infor-nations">
-                        <div className="nations-list">Quốc gia & Khu vực: </div>
-                        <div className="nations-items">
-                            <a href="https://www.youtube.com/" className="nation">Singapore</a>
-                            <a href="https://www.youtube.com/" className="nation">Indonesia</a>
-                            <a href="https://www.youtube.com/" className="nation">Thái Lan</a>
-                            <a href="https://www.youtube.com/" className="nation">Malaysia</a>
-                            <a href="https://www.youtube.com/" className="nation">Việt Nam</a>
-                            <a href="https://www.youtube.com/" className="nation">Phillipines</a>
-                            <a href="https://www.youtube.com/" className="nation">Brazil</a>
-                            <a href="https://www.youtube.com/" className="nation">México</a>
-                            <a href="https://www.youtube.com/" className="nation">Columbia</a>
-                            <a href="https://www.youtube.com/" className="nation">Chile</a>
-                            <a href="https://www.youtube.com/" className="nation">Đài Loan</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        <Footer />
       </div>
     );
   }
-}
 
 export default App;

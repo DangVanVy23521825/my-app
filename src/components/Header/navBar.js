@@ -1,9 +1,8 @@
 import React from 'react'
-import '../App.css';
+import '../../App.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
-class NavBar extends React.Component {
-  render(){
+const NavBar = () => {
     return (
         <div>
             <nav className ="header__navbar">
@@ -48,6 +47,5 @@ class NavBar extends React.Component {
         </div>
     );
   }
-}
 
 export default NavBar;

@@ -1,9 +1,8 @@
 import React from 'react'
-import '../App.css';
+import '../../App.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
-class HeaderCart extends React.Component {
-  render(){
+const HeaderCart = () => {
     return (
         <div>
             <div className="header__cart">
@@ -12,6 +11,5 @@ class HeaderCart extends React.Component {
         </div>
     );
   }
-}
 
 export default HeaderCart;

@@ -1,9 +1,8 @@
 import React from 'react'
-import '../App.css';
+import '../../App.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
-class HeaderSearchSite extends React.Component {
-  render(){
+const HeaderSearchSite = () => {
     return (
         <div>
             <div className="header__search__site">
@@ -37,6 +36,5 @@ class HeaderSearchSite extends React.Component {
         </div>
     );
   }
-}
 
 export default HeaderSearchSite;

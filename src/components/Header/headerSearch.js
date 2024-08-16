@@ -1,12 +1,11 @@
 import React from 'react'
-import '../App.css';
+import '../../App.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import HeaderLogo from './headerLogo.js';
-import HeaderSearchSite from './headerSearchSite';
-import HeaderCart from './headerCart';
+import HeaderSearchSite from './headerSearchSite.js';
+import HeaderCart from './headerCart.js';
 
-class HeaderSearch extends React.Component {
-  render(){
+const HeaderSearch = () => {
     return (
         <div className="header__search">
             <HeaderLogo />
@@ -15,6 +14,6 @@ class HeaderSearch extends React.Component {
         </div>
     );
   }
-}
+
 
 export default HeaderSearch;
