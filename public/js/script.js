@@ -1,7 +1,7 @@
 import createElement from './createElement.js';
 
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('http://localhost:3000/products')
+    fetch('http://localhost:3001/products')
         .then(response => response.json())
         .then(products => {
             const productList = document.querySelector('.product__list');
