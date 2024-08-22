@@ -220,6 +220,88 @@
         "soldCount": "3,4k",
         "origin": "TP.Hồ Chí Minh"
       }
-    ]
-  
+    ],
+    
+    "categories": [
+        { "id": 1, "name": "Máy Tính & Laptop", "url": "https://www.youtube.com/" },
+        { "id": 2, "name": "Máy tính bàn", "url": "https://www.youtube.com/" },
+        { "id": 3, "name": "Máy hình", "url": "https://www.youtube.com/" },
+        { "id": 4, "name": "Linh kiện máy tính", "url": "https://www.youtube.com/" },
+        { "id": 5, "name": "Thiết bị lưu trữ", "url": "https://www.youtube.com/" },
+        { "id": 6, "name": "Thiết bị mạng", "url": "https://www.youtube.com/" },
+        { "id": 7, "name": "Phụ kiện máy tính", "url": "https://www.youtube.com/" }
+    ],
+
+    "brands": [
+      {
+          "id": 1,
+          "name": "sido tech",
+          "checked": false
+      },
+      {
+          "id": 2,
+          "name": "Logitech",
+          "checked": false
+      },
+      {
+          "id": 3,
+          "name": "Samsung",
+          "checked": false
+      },
+      {
+          "id": 4,
+          "name": "TP-link",
+          "checked": false
+      }
+  ],
+
+  "filterCategories": [
+    {
+        "id": 1,
+        "name": "Chuột & Bàn Phím",
+        "productCount": "220k",
+        "checked": true
+    },
+    {
+        "id": 2,
+        "name": "Máy In & Máy Scan",
+        "productCount": "114k",
+        "checked": true
+    },
+    {
+        "id": 3,
+        "name": "Linh Kiện Máy Tính",
+        "productCount": "107k",
+        "checked": true
+    },
+    {
+        "id": 4,
+        "name": "Thiết Bị Mạng",
+        "productCount": "107k",
+        "checked": true
+    }
+  ],
+
+  "shops": [
+    {
+        "id": 1,
+        "name": "Shopee Mall",
+        "checked": true
+    },
+    {
+        "id": 2,
+        "name": "Shop yêu thích",
+        "checked": true
+    },
+    {
+        "id": 3,
+        "name": "Xử lý đơn hàng bởi Shopee",
+        "checked": true
+    },
+    {
+        "id": 4,
+        "name": "Shop yêu thích +",
+        "checked": true
+    }
+]
 }
